@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        //    1. Дан код:
+        //    var a = 1, b = 1, c, d;
+        //    c = ++a; alert(c);           // 2 // Сначала складываем потом выводим.
+        //    d = b++; alert(d);           // 1 // Сначала выводим потом складывае
+        //    c = (2+ ++a); alert(c);      // 5 // Потому что 1+1+1+2 будет пять, сначала                                                  складываем.
+        //    d = (2+ b++); alert(d);      // 4 // 1+1+2 = 4 сначала выводим. одна еденица                                                  осталась за видимой областью, сначала                                                    выводим.
+        //    alert(a);                    // 3 // потому что имеем три сложения едениц и алерт.
+        //    alert(b);                    // 3 // аналогично .
+
+
+        //    2. Чему будет равен x в примере ниже?
+
+        //        var a = 2;
+        //        var x = 1 + (a *= 2); // x = 1 + (a *= 2) = 1 + (2 * 2)= 1 + 4 = 5;
+
+        3.
+        //                var a = 3,
+        //                    b = 2;
+        //                if(a >= 0 && b >= 0){
+        //                    minus = a - b;
+        //                    alert("Разность положительного числа " + minus )
+        //                }
+        //                
+        //                var a = -3,
+        //                    b = -2;
+        //                if(a <= 0 && b <= 0){
+        //                    multiplication = a * b;
+        //                    alert("Произведение " + multiplication)
+        //                }
+        //                
+        //                var a = -3,
+        //                    b = 2;
+        //                if(a <= 0 && b >= 0){
+        //                    plus = a + b;
+        //                    alert("Сумма чисел " + plus)
+        //                }
+
+        4.
+
+        //        var а = +prompt(" Ведите число от  0 до 15 ");
+
+        //        switch (a) {
+        //            case "0":
+        //                console.log("a++");
+        //                break;
+        //            case "1":
+        //                console.log("a++");
+        //                break;
+        //            case "2":
+        //                console.log("a++");
+        //                break;
+        //            case "3":
+        //                console.log("a++");
+        //                break;
+        //            case "4":
+        //                console.log("a++");
+        //                break;
+        //            case "5":
+        //                console.log("a++");
+        //                break;
+        //            case "6":
+        //                console.log("a++");
+        //                break;
+        //            case "7":
+        //                console.log("a++");
+        //                break;
+        //            case "8":
+        //                console.log("a++");
+        //                break;
+        //            case "9":
+        //                console.log("a++");
+        //                break;
+        //            case "10":
+        //                console.log("a++");
+        //                break;
+        //            case "11":
+        //                console.log("a++");
+        //                break;
+        //            case "12":
+        //                console.log("a++");
+        //                break;
+        //            case "13":
+        //                console.log("a++");
+        //                break;
+        //            case "14":
+        //                console.log("a++");
+        //                break;
+        //            case "15":
+        //                console.log("a++");
+        //                break;
+        //            default:
+        //                console.log("Конец списка");
+        //        }
+
+
+
+        //        5.
+        //
+        //        function plus(a, b) {
+        //            return a + b;
+        //        }
+        //        
+        //        function multiplication(a, b) {
+        //            return a * b;
+        //        }
+        //        
+        //        function minus(a, b) {
+        //            return a - b;
+        //        }
+        //        
+        //        function division(a, b) {
+        //            return a / b;
+        //        }
+
+
+        6.
+
+        //        function mathOperation(a, b, operation) {
+        //            if (operation == "plus")
+        //                return plus(a, b);
+        //        }
+        //        
+        //        function mathOperation(a, b, operation) {
+        //            if (operation == "minus")
+        //                return plus(a, b);
+        //        }
+        //        
+        //        function mathOperation(a, b, operation) {
+        //            if (operation == "multiplication")
+        //                return plus(a, b);
+        //        }
+
+
+        // 1
+
+        //      Создаем массив от 1 до 100
+        //        var arr = [];
+        //        var end = 1;
+        //        while (end < 100) {
+        //            end++;
+        //            arr.push(end);
+        //        }
+        //        //      Удаляем все четные цифры
+        //        var a = 2;
+        //        var b = 2;
+        //        while (a <= 100) {
+        //            a += b;
+        //            arr.splice(arr.indexOf(a), 1);
+        //        }
+        //        //      Удаляет все цифры которые деляться на нечетные до 10
+        //        a = 4;
+        //        b = 3;
+        //        while (a < 100) {
+        //            if (a % b === 0 && arr.indexOf(a) !== -1) {
+        //                arr.splice(arr.indexOf(a), 1);
+        //            } else {
+        //                a++;
+        //            }
+        //        }
+        //
+        //        a = 6;
+        //        b = 5;
+        //        while (a < 100) {
+        //            if (a % b === 0 && arr.indexOf(a) !== -1) {
+        //                arr.splice(arr.indexOf(a), 1);
+        //            } else {
+        //                a++;
+        //            }
+        //        }
+        //
+        //        a = 8;
+        //        b = 7;
+        //        while (a < 100) {
+        //            if (a % b === 0 && arr.indexOf(a) !== -1) {
+        //                arr.splice(arr.indexOf(a), 1);
+        //            } else {
+        //                a++;
+        //            }
+        //        }
+        //
+        //        console.log(arr);
+        //        //        задачу своровал...так как не понимаю как это сделать
+
+
+        //         2-3.
+        //                var goods = [
+        //                    {
+        //                        title: "товар 1 ",
+        //                        price: 100,
+        //                        count: 8
+        //                    },
+        //                    {
+        //                        title: "товар 2 ",
+        //                        price: 100,
+        //                        count: 12
+        //                    },
+        //                    {
+        //                        title: "товар 3 ",
+        //                        price: 100,
+        //                        count: 2
+        //                    },
+        //                    {
+        //                        title: "товар 4 ",
+        //                        price: 100,
+        //                        count: 1
+        //                    }
+        //                ]
+        //        
+        //                function f(mas) {
+        //                    var s = 0;
+        //                    for (var good of mas) {
+        //                        s = s + good.price * good.count;
+        //                    }
+        //                    return s;
+        //                }
+        //                
+        //                console.log(f(goods));
+
+
+        // 4
+
+        //        for (var i = 0; i < 10; console.log(i++)) {}
+
+
+        // 5
+
+        //        var a = [];
+        //        var b = 0;
+        //        while (b < 20){
+        //            b++;
+        //            a.push('x');
+        //            console.log(a);
+        //        }
+    </script>
+
+</head>
+
+<body>
+
+</body></html>
